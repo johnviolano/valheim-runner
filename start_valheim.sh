@@ -8,7 +8,7 @@ export PATH=/run/current-system/sw/bin:$PATH
 
 echo "Updating server..."
 mkdir valheim
-steamcmd +login anonymous +force_install_dir ./valheim +app_update 896660 validate +exit
+steamcmd +login anonymous +force_install_dir valheim +app_update 896660 validate +exit
 echo "Update complete!"
 
 
