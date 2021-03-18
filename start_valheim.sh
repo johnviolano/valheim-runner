@@ -13,6 +13,6 @@ echo "Update complete!"
 
 echo "Starting server PRESS CTRL-C to exit"
 cd $PWD/valheim
-steam-run valheim_server.x86_64 -nographics -batchmode -name "SausageFingers Server" -port 2456 -world "SausageFingers" -password "TEMP_REPLACE_ME" -public 1
+steam-run $PWD/valheim_server.x86_64 -nographics -batchmode -name "SausageFingers Server" -port 2456 -world "SausageFingers" -password "TEMP_REPLACE_ME" -public 1
 
 export LD_LIBRARY_PATH=$templdpath
