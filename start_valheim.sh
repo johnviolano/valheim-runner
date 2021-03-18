@@ -2,6 +2,7 @@
 export templdpath=$LD_LIBRARY_PATH
 export LD_LIBRARY_PATH=./linux64:$LD_LIBRARY_PATH
 export SteamAppId=892970
+export PATH=/run/current-system/sw/bin:$PATH
 
 mkdir -p /home/steam/valheim
 echo "Changing to /home/steam/valheim"
