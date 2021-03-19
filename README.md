@@ -1,5 +1,3 @@
-# Simple runner
-
 ## Dependencies
 - `steamcmd`
 - `steam-run`
