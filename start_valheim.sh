@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
-export LD_LIBRARY_PATH="./linux64:$LD_LIBRARY_PATH"
+export LD_LIBRARY_PATH=./linux64${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}
 export SteamAppId=892970
 export PATH="/run/current-system/sw/bin:$PATH" # need to find steamcmd/steam=run
 
