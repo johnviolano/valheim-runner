@@ -12,8 +12,7 @@ echo "Update complete!"
 
 
 echo "Starting server PRESS CTRL-C to exit"
-echo "Found password file at [ $VALHEIM_PASSWORD_FILE ]"
-valheim_password=$(cat $VALHEIM_PASSWORD_FILE)
+valheim_password=$VALHEIM_PASSWORD
 echo "Read password as [ $valheim_password ]"
 steam-run $PWD/valheim_server.x86_64 -nographics -batchmode -name "SausageFingers Server" -port 2456 -world "SausageFingers" -password "$valheim_password" -public 1
 
